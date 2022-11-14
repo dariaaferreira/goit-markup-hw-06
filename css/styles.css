@@ -227,7 +227,6 @@ a.current::after {
     border-style: none;
 
     margin-top: 30px;
-    
 }
 
 .btn-main:hover, .btn-main:focus  {
@@ -397,9 +396,7 @@ a.current::after {
 }
 
 .form-field .comment:hover,
-.form-field .comment:focus
-
- {
+.form-field .comment:focus {
     border-color: var(--active-color);
 }
 
