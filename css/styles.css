@@ -419,7 +419,7 @@ textarea::placeholder {
 
 textarea:hover, 
 textarea:focus {
-    border-color: var(--active-color);
+    border-color: var(--active-color); 
 }
 
 .icon-modal {
