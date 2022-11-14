@@ -45,20 +45,6 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0; 
 }
 
-
-textarea {
-    resize: none;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-}
-
-textarea::placeholder {
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-    color:rgba(117, 117, 117, 0.5);
-}
-
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -416,6 +402,24 @@ a.current::after {
 
 .form-field .comment:focus-visible {
     outline: 0px;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+textarea::placeholder {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color:rgba(117, 117, 117, 0.5);
+}
+
+textarea:hover, 
+textarea:focus {
+    border-color: var(--active-color);
 }
 
 .icon-modal {
