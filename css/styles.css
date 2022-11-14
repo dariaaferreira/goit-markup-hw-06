@@ -878,6 +878,11 @@ img {
 
 }
 
+.input-subscribe:focus,
+.input-subscribe:hover {
+    border-color: var(--active-color); 
+}
+
 .input-subscribe:focus-visible {
     outline: 0px;
 }
