@@ -450,7 +450,7 @@ input:focus + .icon-modal {
 .form-field .policy {
     margin-bottom: 0;
     margin-left: 10px;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .policy a {
