@@ -266,6 +266,7 @@ a.current::after {
     top: 50%;
     left: 50%;
     width: 528px;
+    height: 581px;
 
     background-color: var(--white-color);
     border-radius: 4px;
