@@ -379,10 +379,11 @@ a.current::after {
     border-radius: 4px;
 }
 
-.form-field input:hover,
+
 .form-field input:focus {
     border-color: var(--active-color);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 
 .form-field input:focus-visible {
@@ -395,10 +396,10 @@ a.current::after {
     font-family: inherit;
 }
 
-.form-field .comment:hover,
 .form-field .comment:focus {
     border-color: var(--active-color);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 
 .form-field .comment:focus-visible {
@@ -418,7 +419,6 @@ textarea::placeholder {
     color:rgba(117, 117, 117, 0.5);
 }
 
-textarea:hover, 
 textarea:focus {
     border-color: var(--active-color); 
 }
@@ -433,7 +433,6 @@ textarea:focus {
     height: 18px;
 }
 
-input:hover + .icon-modal,
 input:focus + .icon-modal {
     fill: var(--active-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -474,7 +473,7 @@ input:focus + .icon-modal {
     border: 0;
     padding: 0;
     clip: rect(0 0 0 0);
-    overflow: hidden;
+   /* overflow: hidden;*/
 }
 
 .icon-checkbox {
@@ -825,6 +824,10 @@ img {
     color: var(--white-color);
 }
 
+.subscribe {
+    font-weight: 700;
+}
+
 .social-list-footer {
     display: flex;
 }
@@ -860,8 +863,9 @@ img {
 }
 
 .footer-subscribe {
-    margin-left: 93px;
+    margin-left: auto;
     padding-top: 12px;
+
 }
 
 .input-subscribe {
@@ -882,8 +886,7 @@ img {
 
 }
 
-.input-subscribe:focus,
-.input-subscribe:hover {
+.input-subscribe:focus {
     border-color: var(--active-color); 
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
