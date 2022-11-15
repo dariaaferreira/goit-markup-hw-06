@@ -348,7 +348,8 @@ a.current::after {
     width: 100%;
 }
 
-.form-field:last-child {
+.form-field:last-child, 
+.form-field:nth-last-child(2) {
     margin: 0;
 }
 
@@ -363,6 +364,7 @@ a.current::after {
 
 .policy-descr {
     font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -498,7 +500,7 @@ input:focus + .icon-modal {
 
 .icon-check {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 10px;
     fill: var(--white-color);
 }
