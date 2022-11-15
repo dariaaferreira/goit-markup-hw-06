@@ -473,7 +473,7 @@ input:focus + .icon-modal {
     border: 0;
     padding: 0;
     clip: rect(0 0 0 0);
-   /* overflow: hidden;*/
+  /*overflow: hidden;*/
 }
 
 .icon-checkbox {
