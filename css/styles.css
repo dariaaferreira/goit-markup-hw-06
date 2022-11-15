@@ -266,8 +266,6 @@ a.current::after {
     top: 50%;
     left: 50%;
     width: 528px;
-    height: 581px;
-
 
     background-color: var(--white-color);
     border-radius: 4px;
@@ -450,6 +448,7 @@ input:focus + .icon-modal {
 .form-field .policy {
     margin-bottom: 0;
     margin-left: 10px;
+    padding-top: 20px;
 }
 
 .policy a {
